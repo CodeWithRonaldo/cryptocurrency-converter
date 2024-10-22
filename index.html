@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptocurrency Converter</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  
+</head>
+<body>
+  <div class="converter-container">
+    <fieldset class="crypto-converter">
+      <legend>Cryptocurrency Converter</legend>
+
+      <div class="input-group">
+        <label for="from-coin">From</label>
+        <select name="from" class="select-coin">
+        </select>
+        <input type="number" class="input-amount" placeholder="AMOUNT">
+      </div>
+
+      <div class="exchange-icon">
+        &#8646; 
+      </div>
+
+      <div class="input-group">
+        <label for="to-coin">To</label>
+        <select name="to"  class="select-coin"></select></div>
+    
+        <div>
+            <input class="converted" type="number" placeholder=" Converted Amount"  readonly>
+        </div>
+    
+
+      <button class="convert-btn" id="convert-btn">Convert</button>
+    </fieldset>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
