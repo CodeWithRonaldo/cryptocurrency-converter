@@ -4,7 +4,7 @@ let rates = {};
 
 async function getExchangeRate() {
   const request = await fetch(
-    `https://api.coinlayer.com/api/live?access_key=e0b8d02d5658b436795829511fd7470e`,
+    `https://api.coinlayer.com/api/live?access_key=8e52bf74cdff8940dba54b87650db242`,
     {
       mode: "cors",
     }
